@@ -30,6 +30,8 @@
 .register {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 35px;
 }
 
 .register__title {
