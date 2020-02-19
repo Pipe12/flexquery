@@ -1,0 +1,21 @@
+.container-section {
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 500px;
+  width: 400px;
+  padding: 10px;
+}
+
+.login__title {
+ padding: 0px 15px;
+}
+
+.login > a {
+  align-self: center;
+}
+

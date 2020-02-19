@@ -24,6 +24,28 @@
       </ul>
     </div>
 
+    <!-- Login section -->
+    <section class="container-section row container-fluid">
+      <div class="login card">
+        <h2 class="login__title">Login</h2>
+        <form action="/Account/Login" class="login__form" id="form-login" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="Glj1DLn_ZZgU1MJtPZ9n9o3Pn-t8A12YTENcVLRTG9OulWU4ZrLqgUTR-llO6xH3CuSxwqFwNFgc4GRqdNsO7OnINO0xV50GrjKPOIuMktM1" />            
+          <div class="col form-group">
+            <label class="" for="Email">Email Address</label>
+            <input class="form-control" id="Email" name="Email" placeholder="Your email address" type="email" required>
+          </div>
+          <div class="col form-group">
+            <label class="" for="Password">Password</label>
+            <input class="form-control" id="Password" name="Password" placeholder="Your password" type="password" required>
+          </div>
+          <div class="col">
+            <input type="submit" value="Login" class="btn btn-primary btn-block" />
+          </div>
+        </form>
+        <a href="/Account/ForgotPassword">Forgotten your password?</a>
+      </div>
+    </section>
+    
+
     <!-- Bootstrap javaScript links -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
