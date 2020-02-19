@@ -2,20 +2,37 @@
   justify-content: center;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 700px;
+  width: 400px;
+  padding: 0px;
+}
+
 .login {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  min-height: 500px;
-  width: 400px;
-  padding: 10px;
+  justify-content: space-between;
 }
 
 .login__title {
  padding: 0px 15px;
+ margin-top: 25px;
 }
 
 .login > a {
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__title {
   align-self: center;
 }
 

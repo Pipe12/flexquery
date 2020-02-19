@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexQuery.com</title>
-    <!-- CSS links -->
-    <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap css link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <!-- Navbar -->
@@ -26,22 +26,29 @@
 
     <!-- Login section -->
     <section class="container-section row container-fluid">
-      <div class="login card">
-        <h2 class="login__title">Login</h2>
-        <form action="/Account/Login" class="login__form" id="form-login" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="Glj1DLn_ZZgU1MJtPZ9n9o3Pn-t8A12YTENcVLRTG9OulWU4ZrLqgUTR-llO6xH3CuSxwqFwNFgc4GRqdNsO7OnINO0xV50GrjKPOIuMktM1" />            
-          <div class="col form-group">
-            <label class="" for="Email">Email Address</label>
-            <input class="form-control" id="Email" name="Email" placeholder="Your email address" type="email" required>
-          </div>
-          <div class="col form-group">
-            <label class="" for="Password">Password</label>
-            <input class="form-control" id="Password" name="Password" placeholder="Your password" type="password" required>
-          </div>
-          <div class="col">
-            <input type="submit" value="Login" class="btn btn-primary btn-block" />
-          </div>
-        </form>
-        <a href="/Account/ForgotPassword">Forgotten your password?</a>
+      <div class="main-container card">
+        <div class="login card-body">
+          <h2 class="login__title">Login</h2>
+          <form action="/Account/Login" class="login__form" id="form-login" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="Glj1DLn_ZZgU1MJtPZ9n9o3Pn-t8A12YTENcVLRTG9OulWU4ZrLqgUTR-llO6xH3CuSxwqFwNFgc4GRqdNsO7OnINO0xV50GrjKPOIuMktM1" />            
+            <div class="col form-group">
+              <label class="" for="Email">Email Address</label>
+              <input class="form-control" id="Email" name="Email" placeholder="Your email address" type="email" required>
+            </div>
+            <div class="col form-group">
+              <label class="" for="Password">Password</label>
+              <input class="form-control" id="Password" name="Password" placeholder="Your password" type="password" required>
+            </div>
+            <div class="col">
+              <input type="submit" value="Login" class="btn btn-success btn-lg btn-block" />
+            </div>
+          </form>
+          <a href="/Account/ForgotPassword">Forgotten your password?</a>
+        </div>
+        <div class="register card-footer">
+          <p class="register__title">Get access to premium resources</p>
+          <p><a href="/Account/Register" title="Request an account now" class="btn btn-outline-success btn-block">Request an account now</a></p>
+        </div>
+      </div>
       </div>
     </section>
     
